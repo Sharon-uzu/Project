@@ -1,3 +1,16 @@
+body{
+    background: linear-gradient(to right, #46d8df, #4be2d1 25%, #3fc3eb 75%, #41c8fa);
+    padding: 70px 0;
+}
+.general{
+    width: 83%;
+    margin: auto;
+    background-color: #fff;
+    border-top: 3px solid #0a69cc;
+    padding-top: 7px;
+    border-bottom: 40px solid #0a69cc;
+    position: relative;
+}
 .nav{
     width: 85%;
     margin: auto;
@@ -6,14 +19,20 @@
 justify-content: end;
 } 
 .brand-name{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
 }
+.m-link{
+    color: #3495fb !important;
+}
 
-.span{
-    width: 6px;
-    height: 6px;
-    background-color: red;
+.btns{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9e2efc;
+    margin-left: 1px;
 }
 
 
@@ -23,7 +42,7 @@ color: rgb(25, 153, 233);
 
 
 .signin{
-    background-color: rgb(40, 120, 250);
+    background-color: #3495fb;
     border-radius: 4px;
 }
 
@@ -32,11 +51,16 @@ color: rgb(25, 153, 233);
 }
 
 .navbar-expand-lg .navbar-nav .nav-item{
-    margin-left: 10px !important;
+    margin-left: 15px !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
     color: #000 !important;
+    font-weight: 500 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #3495fb !important;
 }
 
 .navbar-expand-lg .navbar-nav .linkss{
@@ -51,35 +75,35 @@ color: rgb(25, 153, 233);
 }
 
 .main .hero1{
-    padding: 120px 0 200px 0;
+    padding: 120px 0 140px 0;
     text-align: center;
 }
 
 .main .hero1 h2{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-weight: 700;
 }
 
 .main .hero1 p{
-    width: 27%;
+    width: 32%;
     margin: auto;
     color: #5e5e5e;
-    line-height: 26px;
+    line-height: 30px;
     font-size: 17px;
     font-weight: 500;
-    margin-bottom: 23px;
+    margin-bottom: 30px;
 }
 
 .main .hero1 .search{
-    width: 25%;
+    width: 32%;
     margin: auto;
-    background-color: hsla(0, 0%, 86%, .2);
+    background-color: #ebf0f7;
     height: 45px;
     border-radius: 22px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 9px;
+    margin-bottom: 13px;
     padding: 0 5px;
 }
 
@@ -96,7 +120,7 @@ color: rgb(25, 153, 233);
 }
 
 .main .hero1 h6{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .main .hero1 h6 a{
@@ -118,8 +142,8 @@ color: rgb(25, 153, 233);
 .hero2 .card-c .card1{
     width: 30%;
     background-color: #fff;
-    box-shadow: 0px 4px 4px 0px #b8b8bb40;
-    padding: 39px 0;
+    box-shadow: 0 8px 20px 0 hsla(0, 0%, 0%, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
     text-align: center;
 }
 
@@ -131,12 +155,12 @@ color: rgb(25, 153, 233);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(23, 151, 225);
+    background-color: #3495fb;
     margin-bottom: 20px;
 }
 
 .hero2 .card-c .card1 div img{
-    width: 80%;
+    width: 70%;
 }
 
 .hero2 .card-c .card1 div h5{
@@ -154,12 +178,12 @@ color: rgb(25, 153, 233);
 
 .new{
     text-align: center;
-    background-color: rgba(118, 196, 248, .1);
+    background-color: #ebf0f7;
     width: fit-content;
     margin: auto;
-    padding: 9px 12px;
-    margin-top: 80px;
-    border-radius: 15px;
+    padding: 9px 14px;
+    margin-top: 50px;
+    border-radius: 20px;
 }
 
 .new button{
@@ -170,14 +194,21 @@ color: rgb(25, 153, 233);
     font-weight: 500;
     background-color: rgb(113, 184, 8);
     border-radius: 10px;
-    padding: 4px 10px;
+    padding: 4px 8px;
 }
 .new span{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .new span a{
     text-decoration: none;
+}
+
+.img-abs{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    width: 19.5%;
 }
 
 
